@@ -14,7 +14,7 @@ Here is a simple setup:
 
 This will add the `myclass` class to the last line of the paragraph
 
-## options
+## Options
 jquery.lastlineclass.js allows you to specify three optional values: `class`, `wordWrap` and `lastLineWrap`.
 
 ```javascript
@@ -22,9 +22,11 @@ jQuery("p").lastlineclass({ class: 'myclass', wordWrap: 'em', lastLineWrap: 'sec
 ```
 
 Default values are as follows. Change the wrapper elements only if they are clashing with elements in your block of text:
+```javascript
 class : 'last-line-class'
 wordWrap : 'span'
 lastLineWrap : 'div'
+```
 
 ## Notes
 
